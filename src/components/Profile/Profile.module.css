@@ -1,0 +1,68 @@
+.wrapper {
+  margin-top: 30px;
+}
+.profile {
+  background-color: rgb(255, 255, 255);
+  max-width: 350px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: -4px 2px 10px 0px rgba(145, 145, 145, 1);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.avatar {
+  max-width: 50px;
+}
+.name {
+  color: rgb(31, 30, 30);
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.tag {
+  color: rgb(126, 126, 126);
+}
+.location {
+  color: rgb(126, 126, 126);
+}
+.stats {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid rgb(183, 183, 183);
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+  float: right;
+  width: 33.33%;
+}
+.info:nth-child(2n) {
+  border-right: 1px solid rgb(183, 183, 183);
+  border-left: 1px solid rgb(183, 183, 183);
+}
+
+.label {
+  color: rgb(126, 126, 126);
+  padding-top: 20px;
+}
+
+.quantity {
+  color: rgb(31, 30, 30);
+  font-weight: 500;
+  padding-bottom: 20px;
+}
